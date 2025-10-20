@@ -103,6 +103,15 @@ export default function App() {
       <section id="contact" className="max-w-6xl mx-auto px-4 py-14">
         <div className="rounded-2xl border border-zinc-200 bg-white shadow-sm p-6 sm:p-8">
           <h2 className="text-2xl sm:text-3xl font-bold">Stay in the loop</h2>
+          <p className="mt-2 text-zinc-700">
+  Booking / press:{" "}
+  <a href="mailto:team@jarsrising.com" className="font-medium underline">
+    team@jarsrising.com
+  </a>
+</p>
+          <SocialLink href="mailto:team@jarsrising.com" label="Email" />
+
+
           <p className="mt-2 text-zinc-600">Join the mailing list for new releases and show announcements.</p>
           <form className="mt-5 grid sm:grid-cols-[1fr_auto] gap-3" action="https://formspree.io/f/your-id" method="POST">
             <input type="email" name="email" required placeholder="you@jarsrising.com"
