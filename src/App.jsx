@@ -1,5 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
+import content from './content.json'
+
 
 const Icon = ({className=""}) => (
   <svg viewBox="0 0 24 24" aria-hidden="true" className={className}>
