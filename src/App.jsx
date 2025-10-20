@@ -51,9 +51,10 @@ export default function App() {
               Indie rock • country glow • midwest stories. New single out now—stream it everywhere.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
-              <SocialLink href="#spotify" label="Spotify" />
-              <SocialLink href="#apple" label="Apple Music" />
-              <SocialLink href="#youtube" label="YouTube" />
+             <SocialLink href={content.spotify} label="Spotify" />
+<SocialLink href={content.apple} label="Apple Music" />
+<SocialLink href={content.youtube} label="YouTube" />
+
             </div>
           </motion.div>
           <motion.div initial={{ opacity: 0, y: 14 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.1 }}>
